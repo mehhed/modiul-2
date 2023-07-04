@@ -1,0 +1,57 @@
+modiul-2 css for a begeners
+
+video-1: introduction css and css type
+
+        introduction: css- casecading style sheets.
+        1-inlinile css: je css tag ar bitore likha hoy take inline css bola hoy. 
+        2 internal/embedded css: je css style tag ar bitore likha hoy take internal css bola hoy .
+        3 external css :je css alada file kore likha hoy take external css bola hoy .
+
+video-2 css text: 
+        1 color:green;
+        2 background-color:red;
+        3 css unit in w3 school 
+        4 inline and internal css
+
+video-3 css selector:
+         1 id selector : je kono akta tag ke style dite ata bebohar kora hoy.
+         2 class selector : onek gola element ke aksate style dite class selector use kora hoy .
+         3 tag selector : kono tag ke style dite tag ar nam use kore style dawake tag selector bola hoy .
+         4 universel/reset css : aksate website ar sob kisoke style dite ata use kora hoy . ata * chinho diye bebohar kora hoy .
+          5 group selector : a,b,p avabe onek golo tag ke aksate style dawake group selector bole .
+          6 attribute selector :next video
+
+text-lignment:center; likha majkhane ney
+text-lignment:right; likha dan pase ney
+font-size:20px/%/......
+
+
+video-4 css selector:
+         1 group selector:a,b,p{color:green;}
+         2 universel/reset: *{padding:0px;}
+         3 attribute selector: input[type="password"]{color:red;}
+         
+
+video-5 border margin
+   1 border:   border:10px solid red;
+     2 margin : margin:20px; akta man dile 4 pasei pabe 2 ta dile protom ta top bottom and porer ta left right, 3 ta man dile protom ta top 2 ta left right 3 ta bottom a pae, 4ta dile protom ta top ditio ta right third ta bottom fourth ta left a pabe
+   3 border radius: same margin ar moto syntex border-radius:10px;
+
+video-6 padding height width:
+      1 padding: padding:10px;
+      2 height: occota
+      3 width : prosto
+
+video-7:
+     1 external css
+     2 displau none 
+     3 visivility hidden 
+     4 inline block,inline,block
+     5 box shadow
+
+video-8 
+     1 background color
+     2 background size
+     3 background repet
+     4 background position
+     5 background image
