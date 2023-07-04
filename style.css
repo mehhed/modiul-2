@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 20px;
+}
+h1{
+    color: gold ;
+    text-align: center;
+}
+.blog{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.blog-inner{
+    width: 33%;
+    height: auto;
+    border: 2px solid gold;
+    background-color: rgba(60, 71, 71, 0.617);
+    padding: 20px ;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.577);
+}
+.blog-inner h2{
+    color: gold;
+    text-align: center;
+}
+/* group selector */
+span, b, strong, i {
+    color: lightcyan;
+    background-color: yellowgreen;
+}

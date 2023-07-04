@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modiul 2 practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #const{
+            display: inline-block;
+            padding: 4px;
+            border: 1px solid black;
+        }
+        .about{
+            padding: 30px;
+            margin: 30px;
+            border: 2px solid gold;
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/365/38/377/waypoint-wallpaper-preview.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 20px;
+        }
+        .contact-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .contact-form{
+            width: 40%;
+            border: 3px solid gold;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        input[type="text"]{
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        input[type="email"]{
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        input[type="button"]{
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        textarea{
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome my Website</h1>
+    <div class="blog">
+        <div class="blog-inner">
+            <h2>First blog</h2>
+            <p>Lorem ipsum dolor sit amet <span id="const">consectetur</span> adipisicing elit. Possimus omnis nisi porro voluptatum, labore quas nam maxime ipsa ratione minima? Autem sit similique hic, dolores laborum consequatur dignissimos maxime assumenda! Sint iure ipsa saepe, odio illum illo maxime inventore quam quisquam possimus?</p>
+        </div>
+        <div class="blog-inner">
+            <h2>second blog</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus omnis nisi porro <b>voluptatum,</b> labore quas nam maxime ipsa ratione minima? Autem sit similique hic, dolores laborum consequatur dignissimos maxime assumenda! Sint iure ipsa saepe, odio illum illo maxime inventore quam quisquam possimus?</p>
+        </div>
+        <div class="blog-inner">
+            <h2>third blog</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Possimus</strong> omnis nisi porro voluptatum, labore quas nam maxime ipsa ratione minima? Autem sit similique hic, dolores laborum consequatur dignissimos maxime assumenda! Sint iure ipsa saepe, odio <i>illum illo maxime inventore quam quisquam possimus</i>?</p>
+        </div>
+    </div>
+    <div class="about">
+        <h1>About me</h1>
+        <p style="font-size: 20px; text-align: justify; color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, eum. Officia molestias quas alias suscipit sunt voluptates voluptatum quis nam deleniti! Vel eos minus totam unde, ipsum consectetur tempora et magnam voluptatum nulla natus iure, at id, sequi placeat impedit est? A quasi ducimus neque eos hic officiis animi cupiditate adipisci pariatur maiores expedita, atque deserunt laborum impedit quo quos aspernatur labore ullam, voluptate doloremque nemo sequi! Numquam minima sapiente necessitatibus laborum fugit voluptas corrupti. Deleniti sed voluptatum doloribus similique unde, dolor temporibus, dignissimos enim, libero obcaecati rerum? Pariatur ipsam dolor dolore tempora sed molestiae quas nesciunt iusto impedit ipsa doloremque esse commodi veritatis eum alias quod saepe optio, quibusdam unde. Sint sed odio illum nulla quae quidem tenetur iusto aliquam, repellendus quam placeat fuga saepe, sunt aliquid quo deleniti architecto qui dolorum blanditiis molestiae fugiat! Doloremque voluptatum laboriosam maxime in tempora dolorem esse error quos blanditiis tempore sequi a accusantium minima, odio ex porro vitae nemo dicta! Explicabo reprehenderit fugit odio omnis, corrupti, eos rem voluptate autem tempora accusantium tempore quod eveniet expedita soluta veritatis impedit asperiores iste magni. Ut, debitis architecto doloremque laboriosam vel, reiciendis deleniti et voluptates dicta quaerat, eos rerum nobis animi repellat quos vitae minima!</p>
+    </div>
+    <div>
+        <h1>My Skill</h1>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 45%; border:3px solid gold; padding:40px; border-radius:20px;background:lightgray;">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JacaScript</li>
+                </ul>
+            </div>
+            <div style="width: 45%; border:3px solid gold; padding:40px; border-radius:20px;background:lightgray;">
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JacaScript</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section">
+        <h1>Contack me</h1>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Name"> <br><br>
+                <input type="email" name="" id="" placeholder="Mail"> <br> <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="  Type your message"></textarea> <br> <br>
+                <input type="button" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
